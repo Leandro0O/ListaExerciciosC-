@@ -3,8 +3,11 @@ class Program
 {
  public static void Main(string[] args)
  {
-  Motoristas motorista = new Motoristas();
-  motorista.getMotorista();
+   Repeticao repeticao = new Repeticao();
+   Sequencial sequencial = new Sequencial();
+   Console.Clear();
+   sequencial.ex32();
 
+    
  }
 }

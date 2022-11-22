@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leandro\\Desktop\\Cursos\\c#\\c#.csproj": {}
+    "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leandro\\Desktop\\Cursos\\c#\\c#.csproj": {
+    "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leandro\\Desktop\\Cursos\\c#\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Users\\Leandro\\Desktop\\Cursos\\c#\\c#.csproj",
+        "projectPath": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj",
         "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leandro\\Desktop\\Cursos\\c#\\obj\\",
+        "outputPath": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config"
