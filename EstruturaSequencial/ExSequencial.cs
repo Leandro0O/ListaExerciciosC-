@@ -160,5 +160,54 @@ class Sequencial{
         retanguloP = (a + b) * 2;
         Console.WriteLine($"O perimetro do retangulo é {retanguloP}");
     }
+    public void ex34(){
+        double a,b,h;
+        Console.WriteLine("Informe o tamanho de A:");
+        a = Math.Pow(Convert.ToDouble(Console.ReadLine()),2);
+        Console.WriteLine("Informe o tamanho de B:");
+        b = Math.Pow(Convert.ToDouble(Console.ReadLine()),2);
+        h = Math.Sqrt((a+b));
+        Console.WriteLine($"A hipotenusa do triangulo é: {h}");
+
+    }
+
+    public void ex35(){
+        double num1,num2,num3,num4,med;
+        Console.WriteLine("Informe o primeiro número:");
+        num1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe o segundo número:");
+        num2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe o terceiro número:");
+        num3 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe o quarto número:");
+        num4 = Convert.ToDouble(Console.ReadLine());
+        med = (num1 + num2 + num3 + num4) / 4;
+        Console.WriteLine($"A média é {med}");
+    }
+
+    public void ex36(){
+        double numCad,ht,vh,s;
+        Console.WriteLine("Informe o numero de cadastro:");
+        numCad = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe as horas trabalhadas:");
+        ht = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe o valor da hora trabalhada:");
+        vh = Convert.ToDouble(Console.ReadLine());
+        s = ht * vh;
+        Console.WriteLine($"Número do cadastro: {numCad}\nSalario R$ {s:N2}");
+    }
+
+    public void ex37(){
+        string nome;
+        double sf,tv,s;
+        Console.WriteLine("Informe o nome do vender:");
+        nome = Console.ReadLine();
+        Console.WriteLine("Informe o salario fixo:");
+        sf = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Informe  quantidade de vendas:");
+        tv = Convert.ToDouble(Console.ReadLine());
+        s = sf + (tv * 0.15);
+        Console.WriteLine($"Vendedor: {nome}\nSalario: R$ {s:N2}");
+    }
 
 }
