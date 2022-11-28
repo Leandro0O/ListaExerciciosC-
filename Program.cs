@@ -8,7 +8,9 @@ class Program
          Sequencial sequencial = new Sequencial();
          Decisao decisao = new Decisao();
          Console.Clear();
-        decisao.ex3();
+        decisao.ex10();
+
+       
  }
 }
 
