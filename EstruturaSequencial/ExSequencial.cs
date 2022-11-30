@@ -51,7 +51,8 @@ class Sequencial
         anos = Convert.ToInt32(Console.ReadLine());
         meses = anos * 12;
         dias = anos * 365;
-        Console.WriteLine($"{anos} Anos\n{meses} Meses\n{dias} Dias");
+
+        Console.WriteLine($"{anos} {(anos > 1 ? "Anos" : "Ano")}\n{meses} {(meses > 1 ? "Meses" : "Mes")}\n{dias} {(dias > 1 ? "Dias" : "Dia")}");
     }
 
     // Criar um algoritmo que leia a idade de uma pessoa expressa em anos, mês e dias e apresente na tela a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
@@ -79,7 +80,7 @@ class Sequencial
         anos = idade / 365;
         meses = (idade % 365) / 30;
         dias = (idade % 365) % 30;
-        Console.WriteLine($"{anos} Anos\n{meses} Meses\n{dias} Dias");
+        Console.WriteLine($"{anos} {(anos > 1 ? "Anos" : "Ano")}\n{meses} {(meses > 1 ? "Meses" : "Mes")}\n{dias} {(dias > 1 ? "Dias" : "Dia")}");
     }
 
     // Criar um algoritmo que receba uma determinada hora (hora e minutos separados) e apresente na tela a hora em minutos.
@@ -92,7 +93,7 @@ class Sequencial
         Console.WriteLine("Minutos:");
         m = Convert.ToInt32(Console.ReadLine());
         t = (h * 60) + m;
-        Console.WriteLine($"{h} Horas e {m} Minutos = {t} Minutos");
+        Console.WriteLine($"{h} {(h > 1 ? "horas" : "hora")} e {m} {(m > 1 ? "minutos" : "minuto")} = {t} Minutos");
     }
 
     // Criar um algoritmo que leia o tempo de duração de um evento em uma fábrica expressa em segundos e apresente-o na tela expresso em horas, minutos e segundos.
@@ -104,7 +105,7 @@ class Sequencial
         h = t / 3600;
         m = (t % 3600) / 60;
         s = (t % 3600) % 60;
-        Console.WriteLine($"Duração total do evento:\n{h} Horas {m} Minutos {s} Segundos");
+        Console.WriteLine($"Duração total do evento:\n{h} {(h > 1 ? "Horas" : "Horas")} {m} {(m > 1 ? "Minutos" : "Minuto")} {s} {(s > 1 ? "Segundos" : "Segundo")}");
     }
 
     // Criar um algoritmo que leia uma velocidade fornecida em m/s (metros por segundo) e apresente na tela a velocidade em km/h. Para efetuar a conversão, multiplique o valor em m/s por 3.6.
@@ -138,7 +139,7 @@ class Sequencial
         Console.WriteLine("Informe o valor do salario minimo:");
         sm = Convert.ToDouble(Console.ReadLine());
         ts = s / sm;
-        Console.WriteLine($"Você recebe {ts:N2} salarios");
+        Console.WriteLine($"Você recebe {ts:N0} {(ts > 1 ? "salarios" : "salario")}");
     }
 
     // Criar um algoritmo que receba três notas de um aluno e apresente na tela a média aritmética entre essas notas.
@@ -270,7 +271,7 @@ class Sequencial
 
         soma = num1 + num2 + num3;
 
-        Console.WriteLine("A soma dos quadrados é: {0}", soma);
+        Console.WriteLine($"A soma dos quadrados é: {soma}");
 
     }
 
@@ -290,7 +291,7 @@ class Sequencial
 
         soma = num1 + num2 + num3;
 
-        Console.WriteLine("A soma dos cubos é: {0}", soma);
+        Console.WriteLine($"A soma dos cubos é: {soma}");
 
     }
 
@@ -301,7 +302,7 @@ class Sequencial
         Console.WriteLine("Informe os dias letivos");
         dias = double.Parse(Console.ReadLine());
         faltas = dias + (dias * 0.25) - dias;
-        Console.WriteLine("Voce pode ter {0} faltas", faltas);
+        Console.WriteLine($"Voce pode ter {faltas} faltas");
     }
 
     // Criar um algoritmo que leia o valor correspondente ao salário mensal de um trabalhador e também o valor do percentual de reajuste a ser atribuído ao salário. Apresente na tela o valor do novo salário.
@@ -315,7 +316,7 @@ class Sequencial
         reajuste = double.Parse(Console.ReadLine());
 
         ns = s + (s * (reajuste / 100));
-        Console.WriteLine("O novo salario é R$ {0:N2}", ns);
+        Console.WriteLine($"O novo salario é R$ {ns:N2}");
 
     }
 
@@ -331,7 +332,7 @@ class Sequencial
         valormetro = double.Parse(Console.ReadLine());
         metragem = b * h;
         total = valormetro * metragem;
-        Console.WriteLine("O valor do serviço sera R$ {0:N2}", total);
+        Console.WriteLine($"O valor do serviço sera R$ {total:N2}");
 
     }
     // Sabe-se que  de carpete custa R$ 35,00. Criar um algoritmo que leia o comprimento e a largura de uma sala, em metros, calcule e apresente na tela o valor que será gasto para forrar todo o seu piso.
@@ -344,7 +345,7 @@ class Sequencial
         b = double.Parse(Console.ReadLine());
         metragem = b * h;
         total = 35.00 * metragem;
-        Console.WriteLine("O valor do serviço sera R$ {0:N2}", total);
+        Console.WriteLine($"O valor do serviço sera R$ {total:N2}");
 
     }
 
@@ -355,7 +356,7 @@ class Sequencial
         Console.WriteLine("Informe o valor de custo do veiculo:");
         valor = Convert.ToDouble(Console.ReadLine());
         valor = valor + ((valor * 0.28) + (valor * 0.45));
-        Console.WriteLine("O valor final do veiculo é R$ {0:N2}", valor);
+        Console.WriteLine($"O valor final do veiculo é R$ {valor:N2}");
     }
 
 
@@ -372,7 +373,7 @@ class Sequencial
         Console.WriteLine("Informe o valor de cada carro: ");
         venda = Convert.ToDouble(Console.ReadLine());
         salario = salario + (((quant * venda) * 0.05) + (quant * comi));
-        Console.WriteLine("O salari do vendedor é R$ {0:N2}", salario);
+        Console.WriteLine($"O salari do vendedor é R$ {salario:N2}");
 
     }
 
@@ -393,7 +394,7 @@ class Sequencial
         minL *= 0.04;
         minC *= 0.20;
         total = 17.90 + minL + minC + 34.29;
-        Console.WriteLine("O valor total da conta é R$ {0:N2}", total);
+        Console.WriteLine($"O valor total da conta é R$ {total:N2}");
     }
 
     // Criar um algoritmo que efetue o cálculo da quantidade de litros de combustível gastos em uma viagem, utilizando-se um automóvel que faz 12 Km por litro. Para realizar o cálculo, o algoritmo deve ler o tempo gasto na viagem e a velocidade média durante a mesma. Desta forma, será possível obter a distância percorrida com a fórmula: . Tendo o valor da distância, basta calcular a quantidade de litros de combustível utilizada na viagem com a fórmula: . O algoritmo deve apresentar na tela os valores de velocidade média, tempo gasto na viagem, à distância percorrida e a quantidade de litros utilizados na viagem.
@@ -409,10 +410,10 @@ class Sequencial
         tempo = (horas * 60) + minutos;
         distancia = (tempo / 60) * velocidade;
         litros = distancia / 12;
-        Console.WriteLine("Tempo gasto:{0} horas {1} minutos", horas, minutos);
-        Console.WriteLine("Velocidade media:{0} Km/h", velocidade);
-        Console.WriteLine("Distancia percorrida:{0:N2} Km", distancia);
-        Console.WriteLine("Litros gastos:{0:N2} L", litros);
+        Console.WriteLine($"Tempo gasto:{horas} {(horas > 1 ? "horas" : "hora")} {minutos} minutos");
+        Console.WriteLine($"Velocidade media:{velocidade} Km/h");
+        Console.WriteLine($"Distancia percorrida:{distancia:N2} Km");
+        Console.WriteLine($"Litros gastos:{litros:N2} L");
 
     }
     // Criar um algoritmo que leia um valor L e calcula a área de um quadrado de lado L.
