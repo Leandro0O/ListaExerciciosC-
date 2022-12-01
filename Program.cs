@@ -7,8 +7,10 @@ class Program
          Repeticao repeticao = new Repeticao();
          Sequencial sequencial = new Sequencial();
          Decisao decisao = new Decisao();
+         Funcoes funcoes = new Funcoes();
          Console.Clear();
-        repeticao.ex35();
+         Console.WriteLine(funcoes.soma(3,4));
+        
         
 
     }
