@@ -8,8 +8,9 @@ class Program
          Sequencial sequencial = new Sequencial();
          Decisao decisao = new Decisao();
          Console.Clear();
-        repeticao.ex16();
-    
+        repeticao.ex35();
+        
+
     }
 }
 
