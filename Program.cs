@@ -11,7 +11,7 @@ class Program
          Funcoes funcoes = new Funcoes();
          Vetores vetores = new Vetores();
          Console.Clear();
-         vetores.ex10();
+         vetores.ex9();
 
 }
 }
