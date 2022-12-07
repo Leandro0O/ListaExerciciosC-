@@ -10,8 +10,9 @@ class Program
          Decisao decisao = new Decisao();
          Funcoes funcoes = new Funcoes();
          Vetores vetores = new Vetores();
+         Multplicacao mult = new Multplicacao();
          Console.Clear();
-         vetores.ex9();
+         mult.mult11();
 
 }
 }

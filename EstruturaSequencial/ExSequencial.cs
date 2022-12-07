@@ -515,6 +515,6 @@ class Sequencial
         tv = Convert.ToDouble(Console.ReadLine());
         s = sf + (tv * 0.15);
         Console.WriteLine($"Vendedor: {nome}\nSalario: R$ {s:N2}");
-    }
+    }           
 
 }
