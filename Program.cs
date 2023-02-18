@@ -1,4 +1,5 @@
 ﻿
+
 class Program
 {
 
@@ -11,8 +12,9 @@ class Program
          Funcoes funcoes = new Funcoes();
          Vetores vetores = new Vetores();
          Multplicacao mult = new Multplicacao();
-         Console.Clear();
-         mult.mult11();
+         Media media = new Media();
+        Console.Clear();
+        repeticao.ex27();
 
 }
 }

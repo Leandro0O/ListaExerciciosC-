@@ -1,3 +1,5 @@
+using System;
+
 class Vetores
 {
 
@@ -186,6 +188,8 @@ class Vetores
             Console.WriteLine(num);
         }
     }
+
+    
 }
 
 
