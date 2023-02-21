@@ -3,15 +3,18 @@ class Funcoes
 
     public int soma(int A, int N)
     {
-        int soma = A + N;
-        if (N < 0)
+        int soma;
+        if (A < N )
         {
-            return -1;
+            soma = N + A;
         }
         else
         {
-            return soma;
+            soma = A + N;
         }
+        return soma;
 
     }
+
+    
 }

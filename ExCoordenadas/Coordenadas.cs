@@ -17,14 +17,14 @@ class Coordenadas{
     }
 
 
-    public static void Main(string[] args)
-    {   Console.Clear();
-        Coordenadas cord = new Coordenadas();
-        Console.WriteLine("Informe o valor de x:");
-        Double x  = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("Informe o valor de y:");
-        Double y = Convert.ToDouble(Console.ReadLine());
-        cord.Coord(x,y);
-    }
+    // public static void Main(string[] args)
+    // {   Console.Clear();
+    //     Coordenadas cord = new Coordenadas();
+    //     Console.WriteLine("Informe o valor de x:");
+    //     Double x  = Convert.ToDouble(Console.ReadLine());
+    //     Console.WriteLine("Informe o valor de y:");
+    //     Double y = Convert.ToDouble(Console.ReadLine());
+    //     cord.Coord(x,y);
+    // }
 }
 

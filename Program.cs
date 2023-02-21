@@ -14,7 +14,7 @@ class Program
          Multplicacao mult = new Multplicacao();
          Media media = new Media();
         Console.Clear();
-        repeticao.ex27();
+        
 
 }
 }

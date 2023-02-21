@@ -172,7 +172,7 @@ class Vetores
         Console.WriteLine("Array original:");
         foreach (int num in A)
         {
-            Console.WriteLine(num);
+            Console.WriteLine(num); ;
         }
         for (int j = 0; j < 8; j++)
         {
@@ -189,7 +189,25 @@ class Vetores
         }
     }
 
-    
+    // Criar um programa que leia dois vetores de 4 posições de valores inteiros. Criar outro vetor preenchendo-o nas posições pares com os valores do primeiro vetor e nas posições ímpares com os valores do segundo vetor. Apresentar na tela os dados do vetor criado.
+    public void ex10()
+    {
+        int[] v1 = { 23, 1, 5, 6 };
+        int[] v2 = { 2, 9, 4, 10 };
+        int[] values = new int[v1.Length + v2.Length];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if(i % 2 == 0){
+                values[i] = v1[i/2];
+            }else{
+                values[i] = v2[i/2];
+            }
+        }
+        Array.ForEach(values, num => Console.WriteLine(num));
+
+    }
+
+
 }
 
 

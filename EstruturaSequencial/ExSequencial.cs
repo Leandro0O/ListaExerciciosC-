@@ -231,7 +231,7 @@ class Sequencial
     }
 
     // Criar um algoritmo que lê dois números e imprime a soma dos quadrados dos dois números. O quadrado de um número A é representado por .
-    public async void ex20()
+    public  void ex20()
     {
         double num1, num2, soma;
         Console.WriteLine("informe o primeiro numero:");
