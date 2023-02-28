@@ -34,7 +34,7 @@ class Vetores
             Console.WriteLine($"Informe o numero:");
             int num = Convert.ToInt32(Console.ReadLine());
             A[i] = num;
-            if (A[i] < 10 || A[i] > 20)
+            if (A[i] >= 10 || A[i] <= 20)
             {
                 A[i] = 0;
                 count++;
