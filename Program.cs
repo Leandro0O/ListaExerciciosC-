@@ -13,7 +13,9 @@ class Program
          Vetores vetores = new Vetores();
          Multplicacao mult = new Multplicacao();
          Media media = new Media();
+         Ordencao ordem = new Ordencao();
         Console.Clear();
+        ordem.ordem();
         
 
 }
