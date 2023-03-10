@@ -1,4 +1,8 @@
-<h3>Repositorio criado para a resolução de exercícios de fixação em C#</h3>
+<h2>Repositorio criado para a resolução de exercícios de fixação em C#</h2>
+
+<p>Os exercicios podem ser encontrados no seguinte link:</p>
+<p> https://amignon.gitbook.io/exercicios-de-programacao/ </p>
+
 <p>A lista de exercícios inclui:</p>
 <ul>
     <li>Estrutura sequencial </li>
