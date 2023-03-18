@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jtd4CgaDnTUEr/3qFr5zhqMIP3GNzqLy9orTY2OXHVZpxUCFyQhR2wu69EgUCvK6KKQ29xA7I+4IaOdqELyr3Q==",
+  "dgSpecHash": "cI9nqhT/q9k928nsjdkpjxBpL3M0iBcpkXpOu2y2iDG24KER0MWAKqPkQCnmYGswt+p1KIQSv2PRf7EIgoM8WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
-    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj",
       "projectName": "c#",
-      "projectPath": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\c#.csproj",
+      "projectPath": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj",
       "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leandro\\desktop\\cursos\\c#\\obj\\",
+      "outputPath": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -54,30 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
