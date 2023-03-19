@@ -21,9 +21,10 @@ class Program
     Console.WriteLine("Informe o numero para saber a tabuada:");
     n1 = Convert.ToInt32(Console.ReadLine());
     Tabuada.tabuada(n1,n2);
-        
+
+    }
+    
 
 
-}
 }
 

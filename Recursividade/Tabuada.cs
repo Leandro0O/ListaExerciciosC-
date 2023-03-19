@@ -1,5 +1,4 @@
 class Tabuada{
-
     public static void tabuada(int n1, int n2){
 
         if(n2 > 10){
