@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj": {}
+    "C:\\Users\\Leandro\\desktop\\projetos\\c#\\ListaExerciciosC-\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj": {
+    "C:\\Users\\Leandro\\desktop\\projetos\\c#\\ListaExerciciosC-\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\Leandro\\desktop\\projetos\\c#\\ListaExerciciosC-\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\c#.csproj",
+        "projectPath": "C:\\Users\\Leandro\\desktop\\projetos\\c#\\ListaExerciciosC-\\c#.csproj",
         "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leandro\\Desktop\\Projetos\\c#\\ListaExerciciosC-\\obj\\",
+        "outputPath": "C:\\Users\\Leandro\\desktop\\projetos\\c#\\ListaExerciciosC-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -6,8 +6,6 @@ class Tabuada{
         }
         Console.WriteLine($"{n1} x {n2} = {(n1*n2)}");
         tabuada(n1,n2+1);
-        n2++;
-
     }
 
 }

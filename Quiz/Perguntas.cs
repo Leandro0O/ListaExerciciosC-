@@ -15,7 +15,6 @@ public class Perguntas{
     }
 }
 
-
 public class Respostas  : Perguntas{
 
  
